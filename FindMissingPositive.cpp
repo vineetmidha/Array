@@ -33,3 +33,28 @@ public:
     }
 };
 
+// Solution-2
+
+class Solution {
+public:
+    int firstMissingPositive(vector<int>& nums) {
+        if (nums.size()==0) return 1;
+        
+        vector<int> result(nums.size()+1);
+        
+        for (auto i : nums){
+            if (i > 0 && i < result.size()){
+                result[i] = 1;
+            }
+        }
+        
+        for (int i=1; i<result.size(); i++){
+            if (result[i] == 0){
+                return i;
+            }
+        }
+        
+        return result.size();
+    }
+};
+

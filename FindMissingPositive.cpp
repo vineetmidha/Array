@@ -33,7 +33,7 @@ public:
     }
 };
 
-// Solution-2
+// Solution-2 
 
 class Solution {
 public:

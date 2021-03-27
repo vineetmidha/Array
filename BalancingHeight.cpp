@@ -52,6 +52,6 @@ Input
 
 Output
 YES
-NO
+NO 
 
 */

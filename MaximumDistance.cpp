@@ -20,7 +20,7 @@ int maximumDistance(int a[], int n)
 /*
 2
 4
-1 3 2 4
+1 3 2 4 
 9
 1 3 1 4 5 6 4 8 3
 

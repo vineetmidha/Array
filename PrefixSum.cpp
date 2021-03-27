@@ -11,6 +11,6 @@ public:
             prefixSum[i] = prefixSum[i-1] + nums[i];
         }
         
-        return prefixSum;
+        return prefixSum; 
     }
 };

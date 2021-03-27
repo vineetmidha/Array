@@ -20,7 +20,7 @@ void arrange(int a[], int n){
     }
 }
 
-/*
+/* 
 
 Input : A[] = {1, -1, 3, 2, -7, -5, 11, 6 }
 Output : 1  3  2  11  6  -1  -7  -5 
